@@ -1,0 +1,3 @@
+anomaly_id,issue_type,loan_id,case_id,actual_loan_status,actual_case_status,priority_band,priority_score,ground_truth,severity,evidence
+ANOMALY-001,PAID_OFF_LOAN_IN_COLLECTION,LOAN-2026-008027,CASE-SYN-005698,PAID_OFF,OPEN,HIGH,92,INCORRECT_COLLECTION_CASE,CRITICAL,"Loan status PATCH succeeded; collection case remained OPEN"
+ANOMALY-002,CONTACT_OUTSIDE_PERMITTED_WINDOW,LOAN-2026-000030,CASE-SYN-000024,NOT_VERIFIED,OPEN,HIGH,92,RESTRICTED_CONTACT_ATTEMPT,HIGH,"API returned permitted=false and outcome=RESTRICTED; weekday and contact-window checks failed"

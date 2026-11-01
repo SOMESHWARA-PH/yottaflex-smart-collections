@@ -1,0 +1,1 @@
+Ground-truth labels are evidence-backed and kept outside operational tables. `validation_results.csv` stores negative test evidence separately. Place reviewed synthetic CSV/JSON/SQL exports in `generated/`; never include credentials or real personal data.

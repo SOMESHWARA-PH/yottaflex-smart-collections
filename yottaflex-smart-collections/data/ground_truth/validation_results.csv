@@ -1,0 +1,2 @@
+test_id,test_type,payment_id,installment_id,expected_result,actual_http_status,result,evidence
+TEST-003,CROSS_ACCOUNT_PAYMENT_ALLOCATION,PAY-ANOMALY-003,INS-LOAN-2026-000031-001,REJECT,422,PASS,"Payment account does not match the installment loan account"
